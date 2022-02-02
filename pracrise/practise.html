@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="pracrise.js"></script>
+</head>
+<body>
+    <div>
+        <input type="text" id="names" readonly>
+        <button onclick="names()">Show name</button>
+
+        <h5>Today is:</h5>
+        <input type="text" id="data">
+        <button onclick="date()">Show the time</button>
+
+        <h4>If we imagine that i will graduate from AITU in (2024.08.05) in 6:00 evening</h4>
+        <button style="display: block" id="vis" onclick="calculate()">Calculate how many time i have for learning</button>
+        <input type="text" id="time" style="display: none;width: 500px">
+        Time i have for becoming a specialist
+        <br>
+        <br>
+        <br>
+        <div style="display: block">
+            <input type="text" id="first" placeholder="first number">
+            <input type="text" id="second" placeholder="second number">
+            <div style="display: block">
+                  <button onclick="Divide()">Divide</button>
+                  <button onclick="Multiply()">Multiply</button>
+            </div>
+            <input type="text" id="answer">
+        </div>
+    </div>
+</body>
+</html>
